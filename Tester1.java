@@ -6,7 +6,10 @@ public static void main(String []args) {
 	map.put(23, "Majestic");
 	map.put("madhu", "ganiga");
 	map.put(23, "bnglr");
+	System.out.println(map);
+	
 	System.out.println(map.get("madhu"));
+	map.remove("madhu");
 	String s=(String)map.get(23);
 	System.out.println(s);
 	
